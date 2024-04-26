@@ -20,12 +20,12 @@
 }
 
 @keyFrame btncolor{
-from{
-background-color: red;
-}
-to{
-background-color: green;
-}
+ from{
+  background-color: red;
+ }
+ to{
+  background-color: green;
+ }
 }
 
 .item{
