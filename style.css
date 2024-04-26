@@ -36,10 +36,6 @@
 	transition: background .2s linear;
 	transition: transform 0.3s ease;
 
-	animation-name: btncolor;
-	animation-direction: alternate;
-	animation-iteration-count: infinite;
-	animation-duration: 1s;
 }
 .btn:hover{
 	background: lightgreen;
