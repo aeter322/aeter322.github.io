@@ -19,6 +19,15 @@
 	width: 150px;
 }
 
+@keyFrame btncolor{
+from{
+background-color: red;
+}
+to{
+background-color: green;
+}
+}
+
 .item{
 	text-align: center;
 }
@@ -32,6 +41,10 @@
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
+ animation-name: btncolor;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
 
 	transition: background .2s linear;
 }
