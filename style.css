@@ -7,6 +7,7 @@
 	}
 .container{
 	max-width: 390px;
+	margin-top: 0px;
 }
 
 .inner{
@@ -19,6 +20,16 @@
 	width: 150px;
 }
 
+/*@keyframes btncolor{
+	from {
+		border-radius: 3px;
+	}
+	to {
+		border-radius: 15px;
+	}
+}
+*/
+
 .item{
 	text-align: center;
 }
@@ -28,7 +39,7 @@
 	padding: 10px 20px;
 	border: none;
 	background: rgb(248, 168, 24);
-	border-radius: 3px;
+	border-radius: 10px;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -36,14 +47,46 @@
 	transition: background .2s linear;
 	transition: transform 0.3s ease;
 
+	animation-name: btncolor;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
 }
 .btn:hover{
+	border-radius: 3px;
 	background: lightgreen;
 	transform: scale(1.2);
-	border-radius: 10px;
 }
 
 .usercard{
 	text-align: center;
 	
+}
+.UI{
+	width: 390px;
+	margin-left: 50px;
+}
+.btnui{
+	display: inline-block;
+	width: 290px;
+	padding: 10px 20px;
+	border: none;
+	background: rgb(248, 168, 24);
+	border-radius: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+
+	transition: background .2s linear;
+	transition: transform 0.3s ease;
+
+	animation-name: btncolor;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+}
+.btnui:hover{
+	border-radius: 3px;
+	background: lightgreen;
+	transform: scale(1.2);
 }
