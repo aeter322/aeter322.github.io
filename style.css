@@ -20,11 +20,14 @@
 }
 
 @keyframes btncolor{
-	from{
-	background-color: red;}
-	to{
-	background-color: green;}
+	from {
+		border-radius: 3px;
+	}
+	to {
+		border-radius: 15px;
+	}
 }
+
 
 .item{
 	text-align: center;
@@ -39,15 +42,18 @@
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
- 	animation-name: btncolor;
- 	animation-duration: 4s;
- 	animation-iteration-count: infinite;
- 	animation-direction: alternate;
 
 	transition: background .2s linear;
+	transition: transform 0.3s ease;
+
+	animation-name: btncolor;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
 }
 .btn:hover{
 	background: lightgreen;
+	transform: scale(1.2);
 }
 
 .usercard{
