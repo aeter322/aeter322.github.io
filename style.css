@@ -19,16 +19,6 @@
 	width: 150px;
 }
 
-@keyframes btncolor{
-	from {
-		border-radius: 3px;
-	}
-	to {
-		border-radius: 15px;
-	}
-}
-
-
 .item{
 	text-align: center;
 }
@@ -38,7 +28,7 @@
 	padding: 10px 20px;
 	border: none;
 	background: rgb(248, 168, 24);
-	border-radius: 10px;
+	border-radius: 3px;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -54,6 +44,7 @@
 .btn:hover{
 	background: lightgreen;
 	transform: scale(1.2);
+	border-radius: 10px;
 }
 
 .usercard{
